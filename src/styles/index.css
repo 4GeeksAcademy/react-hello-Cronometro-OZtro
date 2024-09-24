@@ -1,12 +1,20 @@
-
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.digitos {
+    font-size: 5rem;         
+    font-weight: bold;       
+  }
+  
+  .digitos > div {
+    padding: 0 10px;         
+    display: flex;           
+    align-items: center;     
+    justify-content: center; 
+    background-color: rgb(17, 17, 17);
+    border: 1px solid rgb(46, 46, 46);
+    border-radius: 8px;
+    margin: 0 10px 0 10px;
+  }
+  
+  .digitos i {
+    font-size: 5rem;         
+          
+  }
